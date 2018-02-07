@@ -11,12 +11,14 @@ int Square( int num)
 }
 
 int main() {
-    cout << "Carpe Diem!\n";
-   cout<< " Paul wants to add a new line of code"<< endl;
+ 
     
+cout<< endl<< "Trying to Resolve a Merge Conflict"<< endl;
+
  for( int i = 1; i<10; i++)
  {
   cout<< Square(i) << "   ";   
  }
+
     return 0;
  }
