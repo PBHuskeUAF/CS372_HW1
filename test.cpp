@@ -5,14 +5,20 @@
 using std::cout;
 using std::endl;
 
+int Square( int num)
+{
+    return  num*num;
+}
+
 int main() {
  
     
-    for (int i = 1; i<10; i++)
-    {
-     cout << i*i << "\t";   
-    }
-    cout<< endl<< "Trying to Create a Merge Conflict";
-    
+cout<< endl<< "Trying to Resolve a Merge Conflict"<< endl;
+
+ for( int i = 1; i<10; i++)
+ {
+  cout<< Square(i) << "   ";   
+ }
+
     return 0;
  }
